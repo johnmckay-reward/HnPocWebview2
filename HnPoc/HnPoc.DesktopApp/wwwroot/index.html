@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="John Mckay - Open to consulting work ;)">
+    <title>Updating UI with REST</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/starter-template/">
+
+    <!-- Bootstrap core CSS -->
+    <link href="/bootstrap.css" rel="stylesheet">
+
+
+    <style>
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            user-select: none;
+        }
+
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
+    </style>
+
+
+    <!-- Custom styles for this template -->
+    <link href="starter-template.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h5>Click to close</h5>
+                <button class="btn btn-danger" onclick="closeApplication()">Close</button>
+                <h5>Click to minimise</h5>
+                <button class="btn btn-warning" onclick="minimiseApplication()">Minimise</button>
+            </div>
+            <div class="col">
+                <p>The following paragraph will be updated via a REST command to http://localhost:5000/wldd</p>
+                <p id="wubba-lubba-dub-dub">Wubba lubba dub dub!</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script>
+
+    function updateWubbaLubbaDubDub(newText) {
+        var wlddElement = document.getElementById('wubba-lubba-dub-dub');
+        wlddElement.innerText = newText;
+    }
+
+    function closeApplication() {
+        window.chrome.webview.postMessage('Close');
+    }
+
+    function minimiseApplication() {
+        window.chrome.webview.postMessage('Minimise');
+    }
+
+</script>
+
+</html>
