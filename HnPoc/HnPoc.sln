@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30517.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HnPoc.DesktopApp", "HnPoc.DesktopApp\HnPoc.DesktopApp.csproj", "{C73ECCA7-674C-422C-A649-2D761F6E189E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dependencies", "Dependencies", "{4F7D1309-2EAF-4B1D-8641-CA4B7C1DB432}"
+	ProjectSection(SolutionItems) = preProject
+		Dependencies\MicrosoftEdgeWebview2Setup.exe = Dependencies\MicrosoftEdgeWebview2Setup.exe
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Default = Debug|Default
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Default = Release|Default
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C73ECCA7-674C-422C-A649-2D761F6E189E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C73ECCA7-674C-422C-A649-2D761F6E189E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C73ECCA7-674C-422C-A649-2D761F6E189E}.Debug|Default.ActiveCfg = Debug|Any CPU
+		{C73ECCA7-674C-422C-A649-2D761F6E189E}.Debug|Default.Build.0 = Debug|Any CPU
+		{C73ECCA7-674C-422C-A649-2D761F6E189E}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{C73ECCA7-674C-422C-A649-2D761F6E189E}.Debug|x86.Build.0 = Debug|Any CPU
+		{C73ECCA7-674C-422C-A649-2D761F6E189E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C73ECCA7-674C-422C-A649-2D761F6E189E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C73ECCA7-674C-422C-A649-2D761F6E189E}.Release|Default.ActiveCfg = Release|Any CPU
+		{C73ECCA7-674C-422C-A649-2D761F6E189E}.Release|Default.Build.0 = Release|Any CPU
+		{C73ECCA7-674C-422C-A649-2D761F6E189E}.Release|x86.ActiveCfg = Release|Any CPU
+		{C73ECCA7-674C-422C-A649-2D761F6E189E}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F313EF10-C2C7-4480-8AAB-2FE9EBF7B082}
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Default = Debug|Default
+		Debug|x86 = Debug|x86
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Default = Debug|Default
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Default = Release|Default
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Default = Debug|Default
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Default = Release|Default
+		Release|x86 = Release|x86
+	EndGlobalSection
+EndGlobal
